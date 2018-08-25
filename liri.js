@@ -40,12 +40,12 @@ spotify.search({ type: 'track', query: songName }, function (err, data) {
     if (err) {
         return console.log('Error occurred: ' + err);
     }
-    console.log(data.tracks.items);
-    // var songData = data.tracks.items
+    console.log(data.tracks.items.album);
+    //  var songData = data.tracks.items
 
-    // for (var i = 0; i < 5; i++) {
-    //     console.log(songdData)
-    // }
+    //  for (var i = 0; i < 5; i++) {
+    //      console.log(songdData)
+    //  }
 
 });
 
